@@ -1,0 +1,199 @@
+
+	h1 {
+		font-size: 5em;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 300;
+		color: #fff;
+		margin:0;
+	}
+
+	#splash {
+		opacity: 0.7;
+
+    	background-image: url("../img/ascend2p.png");
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+
+  		background-position: 0px -200px;
+	}
+
+	#benefits h2 {
+		font-size: 28px;
+	}
+
+	#aboutustxt p {
+		padding-top: 3%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		color: #ffffff;
+		font-size: 24px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	#benefitstxt p {
+		padding-top: 3%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		color: #ffffff;
+		font-size: 24px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#btxt12 p {
+		padding-top: 1%;
+	}
+
+	.section {
+		text-align:center;
+	}
+
+	h1 {
+		font-family: 'Lato', sans-serif; 
+		font-weight: 400;
+		font-size: 80px;
+		color: #fff;
+	}
+
+	h2 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: #ffffff;
+		font-size: 42px;
+	}
+
+	#border  {
+         border: 1px solid #f51c40;
+         position: absolute;
+         left: 40%;
+         right: 40%;
+    }
+
+    #border2 {
+    	 border: 1px solid #f51c40;
+         position: absolute;
+         left: 43%;
+         right: 43%;
+    }
+
+    #border3 {
+    	 border: 1px solid #f51c40;
+         position: absolute;
+         left: 46%;
+         right: 46%;
+    }
+
+	#sponsors h1 {
+		padding-top: 25px;
+	}
+
+	#aboutus {
+		width: auto;
+		height: auto;
+		opacity: 0.7;
+		background-image: url("../img/paccar1v2.png");
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#members {
+		font-size: 16px;
+		color: #ffffff;
+		padding-left: 10%;
+		padding-right: 10%;
+		opacity: 0.8;
+    	background-image: url("../img/paccar2.png");
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#sponsors {
+		background-image: url("../img/paccar3.png");
+		background-opacity: 0.7;
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#benefits {
+		opacity: 0.7;
+    	background-image: url("../img/paccar4.png");
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	#navigationTooltips {
+		font-size: 60px;
+	}
+
+	#sponsors img {
+		max-width: auto;
+		max-height: auto;
+		opacity: .25;
+	    	transition: opacity .5s ease-out;
+	    	-moz-transition: opacity .5s ease-out;
+	    	-webkit-transition: opacity .5s ease-out;
+	    	-o-transition: opacity .5s ease-out;
+	}
+
+	#lg-sponsors, #small-sponsors {
+		background-color: rgba(255,255,255,.7);
+		padding: 10px;
+		margin-top: 10px;
+	}
+
+	#sponsors img:hover {
+		opacity: 1;
+	}
+
+	#splash img {
+	  opacity: 0.7;
+	  position: relative;
+	  top: 95%;
+	  z-index:1;
+	  left: 85%;
+	  display:block;
+	}
+
+
+	@media (min-width: 992px) {
+		#small-sponsors {
+			display: none;
+			width: auto;
+		}
+	}
+
+	@media (max-width: 992px) {
+		#splash {
+			background-image: url("../img/ascend3-i.png");
+			background-position: 0px 0px;
+		}
+
+		#lg-sponsors {
+			display: none;
+			width: auto;
+		}
+
+		#splash img {
+			left: 75%;
+		}
+	}
+
+
+
+
+
